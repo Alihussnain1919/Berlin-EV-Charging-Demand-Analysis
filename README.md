@@ -126,24 +126,7 @@ This repository provides tools and utilities for geospatial data processing, pre
 
 ## Core Functions and Features
 
-### Timing Decorator
-```python
-def timer(func):
-    """Print the runtime of the decorated function"""
-Purpose: Measures and prints the execution time of the decorated function.
-Usage: Wrap any function with @timer to log its runtime.
-Predicates
-isElFilled(el, liste): Checks if an element exists in a list and is not None.
-validateIndex (lambda): Checks if a DataFrame has no duplicate rows.
-Returns True if no duplicates exist, otherwise False.
-Serialization
-python
-Copy code
-@timer
-def pickle_out(objName, dateiName):
-    """Serialization"""
-pickle_out(objName, dateiName): Saves a Python object to a file using pickle.
-pickle_in(dateiName): Loads a Python object from a file using pickle.
+
 
 
 
