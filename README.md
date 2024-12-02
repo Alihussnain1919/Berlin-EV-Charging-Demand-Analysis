@@ -112,18 +112,6 @@ This section explains the utility functions for data processing, serialization, 
 - **`pandas`**: For tabular data in DataFrames.
 
 ---
-# Geospatial Data Processing and Visualization
-
-This repository provides tools and utilities for geospatial data processing, preprocessing, and visualization, focusing on electric vehicle (EV) charging stations and residential data in Berlin.
-
-## Table of Contents
-
-1. [Core Functions and Features](#core-functions-and-features)
-2. [Documentation: Geospatial Data Preprocessing and Visualization Functions](#documentation-geospatial-data-preprocessing-and-visualization-functions)
-3. [Interpretation of Data and Findings on EV Charging Stations in Berlin](#interpretation-of-data-and-findings-on-ev-charging-stations-in-berlin)
-
----
-
 
 # Geospatial Data Preprocessing and Visualization Functions
 
