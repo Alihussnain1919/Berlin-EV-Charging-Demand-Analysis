@@ -112,6 +112,38 @@ This section explains the utility functions for data processing, serialization, 
 - **`pandas`**: For tabular data in DataFrames.
 
 ---
+# Geospatial Data Processing and Visualization
+
+This repository provides tools and utilities for geospatial data processing, preprocessing, and visualization, focusing on electric vehicle (EV) charging stations and residential data in Berlin.
+
+## Table of Contents
+
+1. [Core Functions and Features](#core-functions-and-features)
+2. [Documentation: Geospatial Data Preprocessing and Visualization Functions](#documentation-geospatial-data-preprocessing-and-visualization-functions)
+3. [Interpretation of Data and Findings on EV Charging Stations in Berlin](#interpretation-of-data-and-findings-on-ev-charging-stations-in-berlin)
+
+---
+
+## Core Functions and Features
+
+### Timing Decorator
+```python
+def timer(func):
+    """Print the runtime of the decorated function"""
+Purpose: Measures and prints the execution time of the decorated function.
+Usage: Wrap any function with @timer to log its runtime.
+Predicates
+isElFilled(el, liste): Checks if an element exists in a list and is not None.
+validateIndex (lambda): Checks if a DataFrame has no duplicate rows.
+Returns True if no duplicates exist, otherwise False.
+Serialization
+python
+Copy code
+@timer
+def pickle_out(objName, dateiName):
+    """Serialization"""
+pickle_out(objName, dateiName): Saves a Python object to a file using pickle.
+pickle_in(dateiName): Loads a Python object from a file using pickle.
 
 
 
